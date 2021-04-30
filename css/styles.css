@@ -51,7 +51,7 @@ label {
     /* box-shadow: 0 10px 20px 5px rgba(0 0 0 / 20%); */
 }
 
-/* #button {
+#button {
     display: block;
     width: 100%;
     padding: 12px 8px;
@@ -64,9 +64,9 @@ label {
     font-weight: 900;
     letter-spacing: 2px;
     transition: all 300ms ease-in-out;
-} */
+} 
 
-/* #button:hover {
+#button:hover {
     border: none;
     display: block;
     width: 100%;
@@ -76,7 +76,7 @@ label {
     border-radius: 2px;
     cursor: pointer;
     border: 1px solid #000;
-} */
+}
 
 
 
