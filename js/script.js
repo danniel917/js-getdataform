@@ -42,21 +42,22 @@ button.addEventListener("click", getValue);
 
 
 
-// button.addEventListener("click", clearInputs);
-// function clearInputs() {
-//     // document.querySelector("#button").reset();
-//     let inputs = document.querySelectorAll("input");
-//     inputs.forEach((e) => {
-//       e.value = "";
-//     });
-//   }
+button.addEventListener("click", clearInputs);
+function clearInputs() {
+    // document.querySelector("#button").reset();
+    let inputs = document.querySelectorAll("input:not(#button)");
+    // console.log(inputs);
+    inputs.forEach((e) => {
+      e.value = "";
+    });
+  }
 
 let cerrar = document.querySelector(".cerrar");
 
 function cerrarR(){
     let result = document.querySelector(".respuesta");
     result.style.display = "none";
-    console.log(cerrar);
+    // console.log(cerrar);
 }
 
 cerrar.addEventListener("click", cerrarR)
